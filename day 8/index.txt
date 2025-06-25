@@ -1,0 +1,78 @@
+use kec
+switched to db kec
+db.createCollection("user")
+{ ok: 1 }
+db.User.insertOne({})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bc93649225863fbaaa346')
+}
+db.User.insertOne({})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bc95549225863fbaaa347')
+}
+db.User.insertOne({
+name : "Rakshit",
+email : "rakshitros52@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bc9b349225863fbaaa348')
+}
+db.User.insertOne({
+name : "karthi",
+email : "ponkarthiks@gmail.com",
+age : "19",
+dep : "EIE"})
+db.User.insertOne({
+name : "JAGATHEESHWAR",
+email : "jak@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bca7649225863fbaaa34a')
+}
+db.User.insertOne({
+name : "rohit",
+email : "hittu@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bca9a49225863fbaaa34b')
+}
+db.User.insertOne({
+name : "sabari",
+email : "saaakusabari@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bcab649225863fbaaa34c')
+}
+db.User.insertOne({
+name : "deepak",
+email : "bakku@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bcacd49225863fbaaa34d')
+}
+db.User.insertOne({
+name : "dakku",
+email : "dakkuk@gmail.com",
+age : "19",
+dep : "EIE"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('685bcafb49225863fbaaa34e')
+}
+db.User.insertOne({
+name : "gokul",
+email : "gokul@gmail.com",
+age : "19",
+dep : "EIE"})
